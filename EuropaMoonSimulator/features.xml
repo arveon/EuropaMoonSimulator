@@ -1,4 +1,4 @@
-<ridges>
+<features>
 <ridge><id>0</id><length>10041</length><width>1934</width><height>117</height><coords><x>26500</x><y>19169</y></coords></ridge>
 <ridge><id>1</id><length>15724</length><width>1958</width><height>128</height><coords><x>26962</x><y>24464</y></coords></ridge>
 <ridge><id>2</id><length>15705</length><width>1881</width><height>145</height><coords><x>16827</x><y>9961</y></coords></ridge>
@@ -9,4 +9,9 @@
 <ridge><id>7</id><length>19912</length><width>1899</width><height>117</height><coords><x>17035</x><y>9894</y></coords></ridge>
 <ridge><id>8</id><length>18703</length><width>1922</width><height>111</height><coords><x>30333</x><y>17673</y></coords></ridge>
 <ridge><id>9</id><length>14664</length><width>1911</width><height>141</height><coords><x>28253</x><y>6868</y></coords></ridge>
-</ridges>
+<crater><id>10</id><radius><horizontal>15547</horizontal><vertical>17644</vertical></radius><coords><x>32662</x><y>32757</y></coords></crater>
+<crater><id>11</id><radius><horizontal>10037</horizontal><vertical>17859</vertical></radius><coords><x>8723</x><y>9741</y></coords></crater>
+<crater><id>12</id><radius><horizontal>17529</horizontal><vertical>5778</vertical></radius><coords><x>12316</x><y>3035</y></coords></crater>
+<crater><id>13</id><radius><horizontal>12190</horizontal><vertical>6842</vertical></radius><coords><x>288</x><y>30106</y></coords></crater>
+<crater><id>14</id><radius><horizontal>14040</horizontal><vertical>13942</vertical></radius><coords><x>19264</x><y>22648</y></coords></crater>
+</features>

@@ -1,12 +1,13 @@
 
-#include "RidgeGenerator.h"
+#include "FeatureGenerator.h"
 
 int main()
 {
-	RidgeGenerator gen;
+	FeatureGenerator gen;
 	gen.generate_ridges(10);
-	gen.write_ridges_to_file((char*)"ridges.xml");
-	gen.read_ridges_from_file((char*)"ridges.xml", false);
+	gen.generate_craters(5);
+	gen.write_features_to_file((char*)"features.xml");
+	gen.read_features_from_file((char*)"features.xml", false);
 
 	return 0;
 }

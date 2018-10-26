@@ -21,10 +21,16 @@
     <ClCompile Include="Ridge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RidgeGenerator.cpp">
+    <ClCompile Include="FileReadWriter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FileReadWriter.cpp">
+    <ClCompile Include="SurfaceFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,10 +38,16 @@
     <ClInclude Include="Ridge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RidgeGenerator.h">
+    <ClInclude Include="FileReadWriter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FileReadWriter.h">
+    <ClInclude Include="SurfaceFeature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

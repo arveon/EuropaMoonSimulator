@@ -2,19 +2,18 @@
 #include <string>
 #include <sstream>
 
-class Ridge
+#include "SurfaceFeature.h"
+
+class Ridge : public SurfaceFeature
 {
 private:
-	int id;
 	int length;
 	int width;
 	int height;
-	int x;
-	int y;
 public:
-	std::string to_string();
+	std::string to_string() override;
 
-	Ridge(int id, int length, int width, int height);
+	Ridge(unsigned int id, int length, int width, int height, unsigned int x, unsigned int y);
 	~Ridge();
 };
 

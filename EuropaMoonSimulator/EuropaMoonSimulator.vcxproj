@@ -120,15 +120,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Crater.cpp" />
     <ClCompile Include="FileReadWriter.cpp" />
     <ClCompile Include="Ridge.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="RidgeGenerator.cpp" />
+    <ClCompile Include="FeatureGenerator.cpp" />
+    <ClCompile Include="SurfaceFeature.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Crater.h" />
     <ClInclude Include="FileReadWriter.h" />
     <ClInclude Include="Ridge.h" />
-    <ClInclude Include="RidgeGenerator.h" />
+    <ClInclude Include="FeatureGenerator.h" />
+    <ClInclude Include="SurfaceFeature.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
